@@ -31,7 +31,7 @@ The **Campus Navigation System** is a console-based pathfinding application that
 | B      | Basketball Court  |                    |
 | N      | Nursing Block     |                    |
 | O      | Office Block      |                    |
-|        |                   | Obstacle (Blocked) |
+| Pipe(|)|                   | Obstacle (Blocked) |
 | -      | Open Path         |                    |
 | \*     | Optimal Path      |                    |
 
@@ -39,18 +39,14 @@ The **Campus Navigation System** is a console-based pathfinding application that
 
 ### Compilation
 
-Ensure you have a C++ compiler installed. Use the following command to compile the program:
-
 ```sh
- g++ campus_pathfinder.cpp -o campus_pathfinder
+ g++ campus_navigator.cpp -o campus_navigator
 ```
 
 ### Execution
 
-Run the compiled program:
-
 ```sh
- ./campus_pathfinder
+ ./campus_navigator
 ```
 
 ### User Input
@@ -79,16 +75,6 @@ L - - - - - * * * * * * * * * * * * * * * * * * * * G
 
 - **C++**
 - *A*\* Pathfinding Algorithm\*\*
-
-## Future Enhancements
-
-- Add a graphical interface for a better user experience.
-- Expand the map dynamically based on user input.
-- Implement real-time updates with movement simulation.
-
-## Author
-
-[Your Name]
 
 ## License
 
