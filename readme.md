@@ -56,20 +56,6 @@ The **Campus Navigation System** is a console-based pathfinding application that
 3. Enter the **destination landmark letter** from the legend.
 4. The program will compute and display the **optimal path**.
 
-## Example Output
-
-```
-Campus Grid:
-- - - - - L - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - - -
-- - - - - - - - - - - - - - - - - - - - | - - - - - - - - - C - - - - - - - -
-- - - - - - - - - - - - - - M - - - - - | - - - - - - - - - - - - - - - - - -
-...
-Enter the initial landmark letter: L
-Enter the destination landmark letter: G
-
-Optimal Path:
-L - - - - - * * * * * * * * * * * * * * * * * * * * G
-```
 
 ## Technologies Used
 
